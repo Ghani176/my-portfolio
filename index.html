@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+               
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Ghani</span><br>
+                     From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------about---------- -->
+    <div id="about">
+        <div class="row">
+            <div class="col1">
+                <img src="images/user1.jpg" alt="">
+            </div>
+            <div class="col2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I am Ghazanfar Sultan i am from Rawalpindi Pakistan i have done my matriculation from Al Raie science school and i cleared my ICS from Government college Khayaban. 
+                    Now i m currenty doing BS Software Engineering from SZABIST University Islamabad.     </p>
+                <div class="tabtitle">
+                    <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tabcontent activetab" id="skills">
+                    <ul>
+                        <li><span>Graphic Design</span><br>Designing Web/App Inrerfaces</li>
+                        <li><span>Web Developer</span> <br>Web App Development</li>
+                        <li><span>App Development</span> <br>Building Android/IOS Development</li>
+
+                    </ul>
+                </div>
+                <div class="tabcontent" id="experience">
+                    <ul>
+                        <li><span>Graphic Design</span><br>1 Year </li>
+                        <li><span>Web Developer</span> <br> 1 Year </li>
+                        <li><span>App Development</span> <br>6 Months </li>
+
+                    </ul>
+                </div>
+                <div class="tabcontent" id="education">
+                    <ul>
+                        <li><span>Matric Science </span><br>2017</li>
+                        <li><span>ICS</span> <br>2019</li>
+                        <li><span>BS Software Engineering</span> <br>(Present)</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------Services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis facilis aut inventore odio
+                        eligendi dolor praesentium ipsa aliquam explicabo, adipisci dolores</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-crop"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobi facilis aut inventore odio
+                        eligendi dolor praesentium ipsa aliquam explicabo, adipisci dolores </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-adn"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis facilis aut inventore odio
+                        eligendi dolor praesentium ipsa aliquam explicabo, adipisci dolores</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio----- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis facilis aut
+                            inventore odio
+                            eligendi dolor</p>
+                        <a href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Graphic Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis facilis aut
+                            inventore odio
+                            eligendi dolor</p>
+                        <a href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>App Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis facilis aut
+                            inventore odio
+                            eligendi dolor</p>
+                        <a href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn"> See More</a>
+        </div>
+    </div>
+    <!------------------contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa fa-paper-plane"></i>account@example.com</p>
+                    <p><i class="fa fa-phone"></i>1234567890</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name Here" required>
+                        <input type="email" name="Email" placeholder="Your Email here" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ⓒ Reserved By Ghani</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontent");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("activelink");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-150px";
+            
+        }
+    </script>
+</body>
+
+</html>
